@@ -1,10 +1,13 @@
 Qserv Large Scale Tests @CC-IN2P3
-LPC, 2015/09/17
+Petasky
+September 17, 2015
 
 Fabrice Jammes
 CNRS/IN2P3
 
-* Ma vie, mon oeuvre
+* S15 Large Scale Tests: concrete results
+
+[[https://confluence.lsstcorp.org/display/DM/S15+Large+Scale+Tests][S15 Large Scale Tests]] 
 
 - 2002-2006: Thesis in ATLAS, LPC-Clermont-Fd
 - 2006-2009: Post-doc in ATLAS, LBL-Berkeley
@@ -12,12 +15,13 @@ CNRS/IN2P3
 - 2011-2015: IR, LAL-Orsay (ATLAS,LHCb,LSST)
 - 2015-....: IR, LPC-Clermont-Fd (LSST,Alice)
 
-* ATLAS
+* Qserv installation using Docker at CC-IN2P3
 
+- containers up and running on 25 nodes
+- hackaton @SLAC in November to work with devops/CI team
+- future XLDB workshop to improve Docker ecosystem knowledge (i.e. Kubernetes)
 
-* ATLAS detector (44m x 25m)
-
-.image _figs/atlas-detector.gif 600 800
+.image _figs/docker.png 300 300
 
 * Main steps of data analysis/massaging
 
