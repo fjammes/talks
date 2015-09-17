@@ -1,19 +1,18 @@
 Qserv Large Scale Tests @CC-IN2P3
 Petasky
-September 17, 2015
+17 Sep 2015
 
 Fabrice Jammes
 CNRS/IN2P3
 
-* S15 Large Scale Tests: concrete results
+* Concrete results
 
 [[https://confluence.lsstcorp.org/display/DM/S15+Large+Scale+Tests][S15 Large Scale Tests]] 
 
-- 2002-2006: Thesis in ATLAS, LPC-Clermont-Fd
-- 2006-2009: Post-doc in ATLAS, LBL-Berkeley
-- 2009-2011: Post-doc in ATLAS, LAL-Orsay
-- 2011-2015: IR, LAL-Orsay (ATLAS,LHCb,LSST)
-- 2015-....: IR, LPC-Clermont-Fd (LSST,Alice)
+- 25 nodes with 35 TB of data 
+- Test short queries, full table scans and full table joins 
+- Concurrency and robustness greatly improved
+- Latency reduced 100x 
 
 * Qserv installation using Docker at CC-IN2P3
 
@@ -29,4 +28,4 @@ Article about "Building, Configuring, Deploying and Running Distributed,
 Peta-scale Data Analysis Software at IN2P3" written with Yvan Calas, Fabio
 Hernandez and Jacek Becla.
 
-
+.image _figs/jres2015.png 300 300
