@@ -23,14 +23,10 @@ CNRS/IN2P3
 
 .image _figs/docker.png 300 300
 
-* Main steps of data analysis/massaging
+* JRES2015 
 
-#Monte-Carlo techniques
+Article about "Building, Configuring, Deploying and Running Distributed,
+Peta-scale Data Analysis Software at IN2P3" written with Yvan Calas, Fabio
+Hernandez and Jacek Becla.
 
-- *Generation:* production of a single physics event (_e.g.:_ a collision and its decay products)
-- *Simulation:* modelling interactions between particles and detector material
-- *Reconstruction:* building physics objects (electrons, photons, ...) from the detector signals (energy deposits)
-- *Analysis:* testing hypotheses against the reconstruction output
-
-.image _figs/schema-general-flux-all-en.png 300 300
 
