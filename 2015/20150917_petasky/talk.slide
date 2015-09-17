@@ -14,6 +14,8 @@ CNRS/IN2P3
 - Concurrency and robustness greatly improved
 - Latency reduced 100x 
 
+.image _figs/combined.png 400 800
+
 * Qserv installation using Docker at CC-IN2P3
 
 - containers up and running on 25 nodes
