@@ -1,0 +1,32 @@
+Qserv Large Scale Tests @CC-IN2P3
+LPC, 2015/09/17
+
+Fabrice Jammes
+CNRS/IN2P3
+
+* Ma vie, mon oeuvre
+
+- 2002-2006: Thesis in ATLAS, LPC-Clermont-Fd
+- 2006-2009: Post-doc in ATLAS, LBL-Berkeley
+- 2009-2011: Post-doc in ATLAS, LAL-Orsay
+- 2011-2015: IR, LAL-Orsay (ATLAS,LHCb,LSST)
+- 2015-....: IR, LPC-Clermont-Fd (LSST,Alice)
+
+* ATLAS
+
+
+* ATLAS detector (44m x 25m)
+
+.image _figs/atlas-detector.gif 600 800
+
+* Main steps of data analysis/massaging
+
+#Monte-Carlo techniques
+
+- *Generation:* production of a single physics event (_e.g.:_ a collision and its decay products)
+- *Simulation:* modelling interactions between particles and detector material
+- *Reconstruction:* building physics objects (electrons, photons, ...) from the detector signals (energy deposits)
+- *Analysis:* testing hypotheses against the reconstruction output
+
+.image _figs/schema-general-flux-all-en.png 300 300
+
