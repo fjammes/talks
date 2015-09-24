@@ -1,0 +1,58 @@
+Qserv status report 
+LSST-Compana
+24 Sep 2015
+
+Fabrice Jammes
+CNRS/IN2P3
+
+* Concrete results
+
+[[https://confluence.lsstcorp.org/display/DM/S15+Large+Scale+Tests][S15 Large Scale Tests]] 
+
+- 25 nodes with 35 TB of data 
+- Test short queries, full table scans and full table joins 
+- Concurrency and robustness greatly improved
+- Latency reduced 100x 
+
+.image _figs/combined.png 400 800
+
+.image _figs/docker.png 300 300
+
+* Current development tasks
+
+- Data distribution/replica management
+- Data provenance
+- Data loading
+- Query monitoring
+- Job scheduling
+- C++11 support (including clang)
+- Data butler
+- Query cancellation robustness
+- Data access (web services)
+
+* On my side
+
+- Query coverage (add support for ORDER BY, LIMIT, IN, BETWEEN)
+- Improve parser robustness
+- Improve code, remove dead code
+- Hackaton for Docker integration in November (CI, multi-node tests)
+
+.image _figs/combined_fritz_josh.png 400 800
+
+* Qserv installation using Docker at CC-IN2P3
+
+- Use Docker to develop closer from production environment
+- Deploy Qserv on large clusters or run multi-nodes test on one machine
+- Containers up and running on 25 nodes
+- Hackaton @SLAC in November to work with devops/CI team
+- Future XLDB workshop to improve Docker ecosystem knowledge (i.e. Kubernetes)
+
+.image _figs/docker.png 300 300
+
+* JRES2015 
+
+Article about "Building, Configuring, Deploying and Running Distributed,
+Peta-scale Data Analysis Software at IN2P3" written with Yvan Calas, Fabio
+Hernandez and Jacek Becla.
+
+.image _figs/jres2015.png 300 300
